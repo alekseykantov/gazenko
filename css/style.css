@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-style: normal;
+	height: 2000px;
+}
+
+.page__header {
+	width: 100%;
+	position: sticky;
+	top: 0;
+}
+
+.header__section {
+	height: 40px;
+	width: 100%;
+}
+
+.header__list {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header__advert {
+	background-color: red;
+}
+
+.header__advert-list {
+	width: 800px;
+}
+
+.header__menu {
+	background-color: cyan;
+}
+
+.header__menu-list {
+	width: 1200px;
+}
+
+.header__list-item {
+	display: flex;
+	justify-content: center;
+	width: 120px;
+	margin: 10px;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+}
+
+.body__section {
+	width: 1200px;
+}
+
+.body__header {
+	height: 200px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.body__logo {
+	width: 200px;
+}
+
+.body__menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 800px;
+	height: 100%;
+}
+
+.body__menu-list {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.body__list-item {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+}
+
+.body__contacts {
+	width: 200px;
+}
+
+.separator {
+	height: 10px;
+	width: 100%;
+	background-color: red;
+}
+
+.body__annotation {
+	height: 300px;
+	width: 100%;
+	background: url(../img/background.jpg);
+	background-position: center;
+}
